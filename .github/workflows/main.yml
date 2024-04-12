@@ -28,7 +28,7 @@ jobs:
         run: npm install
 
       - name: Run convert script
-        run: node app.js
+        run: npm run start
 
       - name: Write the last conversion time into the README file
         run: |
