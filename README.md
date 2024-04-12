@@ -24,11 +24,11 @@ A NodeJS script to Convert ChromeGo Proxies
 
 - Base64:
 
-  [https://raw.githubusercontent.com/ivwv/chrome_extractor/main/outputs/base64.txt](https://raw.githubusercontent.com/ivwv/chrome_extractor/main/outputs/base64.txt)
+  [https://raw.githubusercontent.com/ivwv/chromego_convert/main/outputs/base64.txt](https://raw.githubusercontent.com/ivwv/chromego_convert/main/outputs/base64.txt)
 
 - Proxy urls:
 
-  [https://raw.githubusercontent.com/ivwv/chromego_convert/main/outputs/proxy_urls.txt](https://raw.githubusercontent.com/ivwv/chromego_convert/main/outputs/proxy_urls.txt)
+  [https://raw.githubusercontent.com/ivwv/chromego_convert/main/outputs/proxy-urls.txt](https://raw.githubusercontent.com/ivwv/chromego_convert/main/outputs/proxy-urls.txt)
 
 <details>
 
@@ -48,7 +48,7 @@ A NodeJS script to Convert ChromeGo Proxies
 
 - Proxy urls:
 
-  [https://gcore.jsdelivr.net/gh/ivwv/chromego_convert@main/outputs/proxy_urls.txt](https://gcore.jsdelivr.net/gh/ivwv/chromego_convert@main/outputs/proxy_urls.txt)
+  [https://gcore.jsdelivr.net/gh/ivwv/chromego_convert@main/outputs/proxy-urls.txt](https://gcore.jsdelivr.net/gh/ivwv/chromego_convert@main/outputs/proxy-urls.txt)
 
 </details>
 
