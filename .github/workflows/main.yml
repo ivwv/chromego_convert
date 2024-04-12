@@ -1,0 +1,48 @@
+name: ivwv Auto Convert
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "0 0,12 * * *"
+  workflow_dispatch:
+
+jobs:
+  Extract:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - uses: szenius/set-timezone@v1.0 # 设置执行环境的时区
+        with:
+          timezoneLinux: "Asia/Shanghai"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run convert script
+        run: node main.js
+
+      - name: Write the last conversion time into the README file
+        run: |
+          echo "DATE=$(date '+%Y-%m-%d %H:%M:%S')" >> $GITHUB_ENV
+          sed -Ei "s|最近提取于：\`UTC [0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}\`|最近提取于：\`UTC $(date '+%Y-%m-%d %H:%M:%S')\`|g" README.md
+          sed -Ei "s|recently extracted at: \`UTC [0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}\`|recently extracted at: \`UTC $(date '+%Y-%m-%d %H:%M:%S')\`|g" README.md
+
+      - name: Commit & Push changes
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        uses: stefanzweifel/git-auto-commit-action@v4.16.0
+        with:
+          commit_message: Auto extract by Github Actions at UTC ${{ env.DATE }}
+          create_branch: true
+          branch: main
+          commit_options: "--allow-empty"
+          push_options: "--force"
