@@ -388,7 +388,7 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择
-      - 🎯 全球直连
+      - ⚖ 负载均衡
       - ☁ WARP
       - US 🇺🇸-hysteria2 | 0-1
       - 🏳 Unknown-vmess | 1-1

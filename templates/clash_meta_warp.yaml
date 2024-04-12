@@ -30,7 +30,7 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择
-      - 🎯 全球直连
+      - ⚖ 负载均衡
       - ☁ WARP
 
   - name: ♻️ 自动选择
