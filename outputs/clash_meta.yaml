@@ -321,7 +321,7 @@ proxies:
     skip-cert-verify: true
   - name: Unknown 🇺🇳-vless | 1-0
     type: vless
-    server: yh3.dtku41.xyz
+    server: yh6.dtku41.xyz
     port: 443
     uuid: ebfdccb6-7416-4b6e-860d-98587344d500
     tls: true
