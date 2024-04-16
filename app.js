@@ -567,15 +567,5 @@ async function writeBase64File(outputFile, proxyUrlsFile) {
 
   // 写入base64文件
   await writeBase64File("./outputs/base64.txt", "./outputs/proxy-urls.txt");
-
-  // 单独处理其他节点
-  extractedProxies = [];
-  serversList = [];
-  await processUrls("./urls/speednodes_clash.txt", processClashMeta);
-  await writeClashMetaProfile(
-    "./templates/clash_meta_warp.yaml",
-    "./outputs/speednodes_clash.yaml",
-    extractedProxies
-  );
   
 })();
