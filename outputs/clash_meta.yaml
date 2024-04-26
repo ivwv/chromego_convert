@@ -11,6 +11,18 @@ profile:
   tracing: true
 global-client-fingerprint: chrome
 proxies:
+  - name: US 🇺🇸-tuic | 0-1
+    server: 74.63.233.74
+    port: 33441
+    type: tuic
+    uuid: a258065f-9502-4fe6-b3ed-cf7440e25150
+    password: dongtaiwang.com
+    alpn:
+      - h3
+    disable-sni: true
+    reduce-rtt: true
+    udp-relay-mode: native
+    congestion-controller: bbr
   - name: Unknown 🇺🇳-vmess | 1-1
     type: vmess
     server: yh7.dtku41.xy
@@ -359,6 +371,7 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - US 🇺🇸-tuic | 0-1
       - Unknown 🇺🇳-vmess | 1-1
       - Unknown 🇺🇳-vmess | 1-2
       - Unknown 🇺🇳-vmess | 1-3
@@ -386,6 +399,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - US 🇺🇸-tuic | 0-1
       - Unknown 🇺🇳-vmess | 1-1
       - Unknown 🇺🇳-vmess | 1-2
       - Unknown 🇺🇳-vmess | 1-3
