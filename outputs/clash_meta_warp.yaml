@@ -30,6 +30,18 @@ proxies:
       - 1.1.1.1
       - 8.8.8.8
     dialer-proxy: ☁ WARP前置节点
+  - name: US 🇺🇸-tuic | 0-1
+    server: 74.63.233.74
+    port: 33441
+    type: tuic
+    uuid: a258065f-9502-4fe6-b3ed-cf7440e25150
+    password: dongtaiwang.com
+    alpn:
+      - h3
+    disable-sni: true
+    reduce-rtt: true
+    udp-relay-mode: native
+    congestion-controller: bbr
   - name: US 🇺🇸-hysteria | 1-1
     type: hysteria
     server: 108.181.5.22
@@ -290,6 +302,7 @@ proxy-groups:
       - ♻️ 自动选择
       - ⚖ 负载均衡
       - ☁ WARP
+      - US 🇺🇸-tuic | 0-1
       - US 🇺🇸-hysteria | 1-1
       - Unknown 🇺🇳-vless | 2-1
       - Unknown 🇺🇳-vless | 2-2
@@ -314,6 +327,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - US 🇺🇸-tuic | 0-1
       - US 🇺🇸-hysteria | 1-1
       - Unknown 🇺🇳-vless | 2-1
       - Unknown 🇺🇳-vless | 2-2
@@ -338,6 +352,7 @@ proxy-groups:
     interval: 300
     strategy: consistent-hashing
     proxies:
+      - US 🇺🇸-tuic | 0-1
       - US 🇺🇸-hysteria | 1-1
       - Unknown 🇺🇳-vless | 2-1
       - Unknown 🇺🇳-vless | 2-2
