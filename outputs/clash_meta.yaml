@@ -84,9 +84,9 @@ proxies:
       path: /argox-vl?ed=2048
       headers:
         host: giving-hide-provisions-corrected.trycloudflare.com
-  - name: 🏳 Unknown-vmess | 3-1
+  - name: Unknown 🇺🇳-vmess | 3-1
     type: vmess
-    server: 104.16.104.34
+    server: yh4.dtku41.xyz
     port: 8080
     cipher: auto
     uuid: ef8c954e-014f-4b36-8273-9b5086afab34
@@ -288,7 +288,7 @@ proxy-groups:
       - Unknown 🇺🇳-vless | 2-2
       - Unknown 🇺🇳-vless | 2-3
       - Unknown 🇺🇳-vless | 2-4
-      - 🏳 Unknown-vmess | 3-1
+      - Unknown 🇺🇳-vmess | 3-1
       - US 🇺🇸-tuic | 4-1
       - US 🇺🇸-vless | 5-1
       - US 🇺🇸-ss | 6-1
@@ -313,7 +313,7 @@ proxy-groups:
       - Unknown 🇺🇳-vless | 2-2
       - Unknown 🇺🇳-vless | 2-3
       - Unknown 🇺🇳-vless | 2-4
-      - 🏳 Unknown-vmess | 3-1
+      - Unknown 🇺🇳-vmess | 3-1
       - US 🇺🇸-tuic | 4-1
       - US 🇺🇸-vless | 5-1
       - US 🇺🇸-ss | 6-1
