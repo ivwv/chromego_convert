@@ -30,271 +30,51 @@ proxies:
       - 1.1.1.1
       - 8.8.8.8
     dialer-proxy: ☁ WARP前置节点
-  - name: US 🇺🇸-tuic | 0-1
-    server: 74.63.233.74
-    port: 33441
-    type: tuic
-    uuid: a258065f-9502-4fe6-b3ed-cf7440e25150
-    password: dongtaiwang.com
-    alpn:
-      - h3
-    disable-sni: true
-    reduce-rtt: true
-    udp-relay-mode: native
-    congestion-controller: bbr
-  - name: US 🇺🇸-hysteria | 1-1
-    type: hysteria
-    server: 108.181.5.22
-    port: 44557
-    sni: bing.com
-    skip-cert-verify: true
-    alpn:
-      - h3
-    protocol: udp
-    auth_str: dongtaiwang.com
-    up: 11
-    down: 55
-    hop_interval: 10
-  - name: Unknown 🇺🇳-vless | 2-1
-    type: vless
-    server: yh7.dtku41.xyz
-    port: 443
-    uuid: 1a62379a-e160-45a3-8361-3e6b5021d192
-    tls: true
-    servername: giving-hide-provisions-corrected.trycloudflare.com
-    network: ws
-    ws-opts:
-      path: /argox-vl?ed=2048
-      headers:
-        host: giving-hide-provisions-corrected.trycloudflare.com
-  - name: Unknown 🇺🇳-vless | 2-2
-    type: vless
-    server: yh9.dtku41.xyz
-    port: 443
-    uuid: 1a62379a-e160-45a3-8361-3e6b5021d192
-    tls: true
-    servername: giving-hide-provisions-corrected.trycloudflare.com
-    network: ws
-    ws-opts:
-      path: /argox-vl?ed=2048
-      headers:
-        host: giving-hide-provisions-corrected.trycloudflare.com
-  - name: Unknown 🇺🇳-vless | 2-3
+  - name: Unknown 🇺🇳-vless | 1-0
     type: vless
     server: yh6.dtku41.xyz
     port: 443
-    uuid: 1a62379a-e160-45a3-8361-3e6b5021d192
+    uuid: ebfdccb6-7416-4b6e-860d-98587344d500
     tls: true
-    servername: giving-hide-provisions-corrected.trycloudflare.com
+    servername: lg1.freessr2.xyz
+    skip-cert-verify: false
     network: ws
     ws-opts:
-      path: /argox-vl?ed=2048
+      path: /xyakws
       headers:
-        host: giving-hide-provisions-corrected.trycloudflare.com
-  - name: Unknown 🇺🇳-vless | 2-4
+        Host: lg1.freessr2.xyz
+    grpc-opts:
+      serviceName: /
+  - name: Unknown 🇺🇳-vless | 2-0
     type: vless
-    server: yh1.dtku41.xyz
+    server: yh9.dtku41.xyz
     port: 443
-    uuid: 1a62379a-e160-45a3-8361-3e6b5021d192
+    uuid: ebfdccb6-7416-4b6e-860d-98587344d500
     tls: true
-    servername: giving-hide-provisions-corrected.trycloudflare.com
+    servername: lg1.freessr2.xyz
+    skip-cert-verify: false
     network: ws
     ws-opts:
-      path: /argox-vl?ed=2048
+      path: /xyakws
       headers:
-        host: giving-hide-provisions-corrected.trycloudflare.com
-  - name: Unknown 🇺🇳-vmess | 3-1
-    type: vmess
-    server: yh4.dtku41.xyz
-    port: 8080
-    cipher: auto
-    uuid: ef8c954e-014f-4b36-8273-9b5086afab34
-    alterId: 0
-    tls: false
-    skip-cert-verify: true
-    servername: dual-nothing-prep-exit.trycloudflare.com
+        Host: lg1.freessr2.xyz
+    grpc-opts:
+      serviceName: /
+  - name: Unknown 🇺🇳-vless | 3-0
+    type: vless
+    server: yh7.dtku41.xyz
+    port: 443
+    uuid: ebfdccb6-7416-4b6e-860d-98587344d500
+    tls: true
+    servername: lg1.freessr2.xyz
+    skip-cert-verify: false
     network: ws
     ws-opts:
-      path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+      path: /xyakws
       headers:
-        host: dual-nothing-prep-exit.trycloudflare.com
-  - name: US 🇺🇸-tuic | 4-1
-    server: 108.181.5.132
-    port: 9727
-    type: tuic
-    uuid: 02b0c83f-5fa4-4f08-8a9f-d9cae4a7a419
-    password: 02b0c83f-5fa4-4f08-8a9f-d9cae4a7a419
-    alpn:
-      - h3
-    disable-sni: true
-    reduce-rtt: true
-    udp-relay-mode: native
-    congestion-controller: bbr
-  - name: US 🇺🇸-vless | 5-1
-    type: vless
-    server: 109.104.152.101
-    port: 13982
-    uuid: 85beb960-236b-4634-81ce-6ad66652f928
-    network: tcp
-    udp: true
-    tls: true
-    flow: null
-    servername: itunes.apple.com
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: HjmsLPRaQqSqtdMMpIpmpoJOKhC0rAOUCHXnz0E89RE
-      short-id: 22f6b74f02cc88a6
-    smux:
-      enabled: true
-      protocol: h2mux
-      max-connections: 1
-      min-streams: 4
-      padding: true
-      brutal-opts:
-        enabled: true
-        up: 11
-        down: 55
-  - name: US 🇺🇸-ss | 6-1
-    type: ss
-    server: 109.104.152.186
-    port: 11223
-    cipher: 2022-blake3-chacha20-poly1305
-    password: 7/bb9x3TJQ4Y5SRA/Al3OdwxIk4uf3Jg8N9wDQg+Uto=
-    smux:
-      enabled: true
-      protocol: smux
-      max-connections: 1
-      min-streams: 4
-      statistic: false
-      only-tcp: false
-      padding: true
-      brutal-opts:
-        enabled: true
-        up: 11
-        down: 55
-  - name: US 🇺🇸-hysteria2 | 7-1
-    type: hysteria2
-    server: 109.104.152.89
-    port: 22441
-    password: dongtaiwang.com
-    alpn:
-      - h3
-    sni: www.bing.com
-    skip-cert-verify: true
-    up: 11 Mbps
-    down: 55 Mbps
-  - name: US 🇺🇸-vless | 8-1
-    type: vless
-    server: 109.104.152.101
-    port: 13982
-    uuid: 85beb960-236b-4634-81ce-6ad66652f928
-    network: tcp
-    udp: true
-    tls: true
-    flow: null
-    servername: itunes.apple.com
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: HjmsLPRaQqSqtdMMpIpmpoJOKhC0rAOUCHXnz0E89RE
-      short-id: 22f6b74f02cc88a6
-    smux:
-      enabled: true
-      protocol: h2mux
-      max-connections: 1
-      min-streams: 4
-      padding: true
-      brutal-opts:
-        enabled: true
-        up: 11
-        down: 55
-  - name: US 🇺🇸-ss | 9-1
-    type: ss
-    server: 109.104.152.186
-    port: 11223
-    cipher: 2022-blake3-chacha20-poly1305
-    password: 7/bb9x3TJQ4Y5SRA/Al3OdwxIk4uf3Jg8N9wDQg+Uto=
-    smux:
-      enabled: true
-      protocol: smux
-      max-connections: 1
-      min-streams: 4
-      statistic: false
-      only-tcp: false
-      padding: true
-      brutal-opts:
-        enabled: true
-        up: 11
-        down: 55
-  - name: US 🇺🇸-Hysteria | 0-0
-    type: hysteria
-    server: 108.181.5.133
-    port: 26022
-    ports: 26022
-    auth-str: dongtaiwang.com
-    up: 80
-    down: 100
-    fast-open: true
-    protocol: udp
-    sni: bing.com
-    skip-cert-verify: true
-    alpn:
-      - h3
-  - name: FR 🇫🇷-Hysteria | 1-0
-    type: hysteria
-    server: 62.210.243.131
-    port: 18702
-    ports: 18702
-    auth-str: dongtaiwang.com
-    up: 80
-    down: 100
-    fast-open: true
-    protocol: udp
-    sni: bing.com
-    skip-cert-verify: true
-    alpn:
-      - h3
-  - name: FR 🇫🇷-Hysteria | 2-0
-    type: hysteria
-    server: 62.210.243.131
-    port: 18702
-    ports: 18702
-    auth-str: dongtaiwang.com
-    up: 80
-    down: 100
-    fast-open: true
-    protocol: udp
-    sni: bing.com
-    skip-cert-verify: true
-    alpn:
-      - h3
-  - name: US 🇺🇸-Hysteria | 3-0
-    type: hysteria
-    server: 109.104.152.194
-    port: 58510
-    ports: 58510
-    auth-str: dongtaiwang.com
-    up: 80
-    down: 100
-    fast-open: true
-    protocol: udp
-    sni: bing.com
-    skip-cert-verify: true
-    alpn:
-      - h3
-  - name: US 🇺🇸-Hysteria2 | 0-0
-    type: hysteria2
-    server: 104.192.224.141
-    port: 40391
-    password: dongtaiwang.com
-    sni: www.bing.com
-    skip-cert-verify: true
-  - name: US 🇺🇸-Hysteria2 | 1-0
-    type: hysteria2
-    server: 104.192.224.140
-    port: 40391
-    password: dongtaiwang.com
-    sni: www.bing.com
-    skip-cert-verify: true
+        Host: lg1.freessr2.xyz
+    grpc-opts:
+      serviceName: /
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -302,75 +82,27 @@ proxy-groups:
       - ♻️ 自动选择
       - ⚖ 负载均衡
       - ☁ WARP
-      - US 🇺🇸-tuic | 0-1
-      - US 🇺🇸-hysteria | 1-1
-      - Unknown 🇺🇳-vless | 2-1
-      - Unknown 🇺🇳-vless | 2-2
-      - Unknown 🇺🇳-vless | 2-3
-      - Unknown 🇺🇳-vless | 2-4
-      - Unknown 🇺🇳-vmess | 3-1
-      - US 🇺🇸-tuic | 4-1
-      - US 🇺🇸-vless | 5-1
-      - US 🇺🇸-ss | 6-1
-      - US 🇺🇸-hysteria2 | 7-1
-      - US 🇺🇸-vless | 8-1
-      - US 🇺🇸-ss | 9-1
-      - US 🇺🇸-Hysteria | 0-0
-      - FR 🇫🇷-Hysteria | 1-0
-      - FR 🇫🇷-Hysteria | 2-0
-      - US 🇺🇸-Hysteria | 3-0
-      - US 🇺🇸-Hysteria2 | 0-0
-      - US 🇺🇸-Hysteria2 | 1-0
+      - Unknown 🇺🇳-vless | 1-0
+      - Unknown 🇺🇳-vless | 2-0
+      - Unknown 🇺🇳-vless | 3-0
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - US 🇺🇸-tuic | 0-1
-      - US 🇺🇸-hysteria | 1-1
-      - Unknown 🇺🇳-vless | 2-1
-      - Unknown 🇺🇳-vless | 2-2
-      - Unknown 🇺🇳-vless | 2-3
-      - Unknown 🇺🇳-vless | 2-4
-      - Unknown 🇺🇳-vmess | 3-1
-      - US 🇺🇸-tuic | 4-1
-      - US 🇺🇸-vless | 5-1
-      - US 🇺🇸-ss | 6-1
-      - US 🇺🇸-hysteria2 | 7-1
-      - US 🇺🇸-vless | 8-1
-      - US 🇺🇸-ss | 9-1
-      - US 🇺🇸-Hysteria | 0-0
-      - FR 🇫🇷-Hysteria | 1-0
-      - FR 🇫🇷-Hysteria | 2-0
-      - US 🇺🇸-Hysteria | 3-0
-      - US 🇺🇸-Hysteria2 | 0-0
-      - US 🇺🇸-Hysteria2 | 1-0
+      - Unknown 🇺🇳-vless | 1-0
+      - Unknown 🇺🇳-vless | 2-0
+      - Unknown 🇺🇳-vless | 3-0
   - name: ⚖ 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 300
     strategy: consistent-hashing
     proxies:
-      - US 🇺🇸-tuic | 0-1
-      - US 🇺🇸-hysteria | 1-1
-      - Unknown 🇺🇳-vless | 2-1
-      - Unknown 🇺🇳-vless | 2-2
-      - Unknown 🇺🇳-vless | 2-3
-      - Unknown 🇺🇳-vless | 2-4
-      - Unknown 🇺🇳-vmess | 3-1
-      - US 🇺🇸-tuic | 4-1
-      - US 🇺🇸-vless | 5-1
-      - US 🇺🇸-ss | 6-1
-      - US 🇺🇸-hysteria2 | 7-1
-      - US 🇺🇸-vless | 8-1
-      - US 🇺🇸-ss | 9-1
-      - US 🇺🇸-Hysteria | 0-0
-      - FR 🇫🇷-Hysteria | 1-0
-      - FR 🇫🇷-Hysteria | 2-0
-      - US 🇺🇸-Hysteria | 3-0
-      - US 🇺🇸-Hysteria2 | 0-0
-      - US 🇺🇸-Hysteria2 | 1-0
+      - Unknown 🇺🇳-vless | 1-0
+      - Unknown 🇺🇳-vless | 2-0
+      - Unknown 🇺🇳-vless | 3-0
   - name: ☁ WARP前置节点
     type: select
     proxies:
