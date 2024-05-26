@@ -310,14 +310,14 @@ proxies:
   - name: US 🇺🇸-Hysteria2 | 0-0
     type: hysteria2
     server: 104.192.224.141
-    port: 40391
+    port: 62894
     password: dongtaiwang.com
     sni: www.bing.com
     skip-cert-verify: true
   - name: US 🇺🇸-Hysteria2 | 1-0
     type: hysteria2
     server: 104.192.224.140
-    port: 40391
+    port: 62894
     password: dongtaiwang.com
     sni: www.bing.com
     skip-cert-verify: true
