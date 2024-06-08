@@ -30,11 +30,11 @@ jobs:
       - name: Run convert script
         run: npm run start
 
-      - name: Write the last conversion time into the README file
-        run: |
-          echo "DATE=$(date '+%Y-%m-%d %H:%M:%S')" >> $GITHUB_ENV
-          sed -Ei "s|最近提取于：\`UTC [0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}\`|最近提取于：\`UTC $(date '+%Y-%m-%d %H:%M:%S')\`|g" README.md
-          sed -Ei "s|recently extracted at: \`UTC [0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}\`|recently extracted at: \`UTC $(date '+%Y-%m-%d %H:%M:%S')\`|g" README.md
+      # - name: Write the last conversion time into the README file
+      #   run: |
+      #     echo "DATE=$(date '+%Y-%m-%d %H:%M:%S')" >> $GITHUB_ENV
+      #     sed -Ei "s|最近提取于：\`UTC [0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}\`|最近提取于：\`UTC $(date '+%Y-%m-%d %H:%M:%S')\`|g" README.md
+      #     sed -Ei "s|recently extracted at: \`UTC [0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}\`|recently extracted at: \`UTC $(date '+%Y-%m-%d %H:%M:%S')\`|g" README.md
 
       - name: Commit & Push changes
         env:
