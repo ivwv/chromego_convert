@@ -488,20 +488,6 @@ proxies:
     skip-cert-verify: true
     alpn:
       - h3
-  - name: FR 🇫🇷-Hysteria | 2-0
-    type: hysteria
-    server: 62.210.243.131
-    port: 18702
-    ports: 18702
-    auth-str: dongtaiwang.com
-    up: 80
-    down: 100
-    fast-open: true
-    protocol: udp
-    sni: bing.com
-    skip-cert-verify: true
-    alpn:
-      - h3
   - name: FR 🇫🇷-Hysteria | 3-0
     type: hysteria
     server: 62.210.243.131
@@ -604,7 +590,6 @@ proxy-groups:
       - US 🇺🇸-ss | 9-1
       - FR 🇫🇷-Hysteria | 0-0
       - FR 🇫🇷-Hysteria | 1-0
-      - FR 🇫🇷-Hysteria | 2-0
       - FR 🇫🇷-Hysteria | 3-0
       - US 🇺🇸-Hysteria2 | 0-0
       - Unknown 🇺🇳-vless | 1-0
@@ -646,7 +631,6 @@ proxy-groups:
       - US 🇺🇸-ss | 9-1
       - FR 🇫🇷-Hysteria | 0-0
       - FR 🇫🇷-Hysteria | 1-0
-      - FR 🇫🇷-Hysteria | 2-0
       - FR 🇫🇷-Hysteria | 3-0
       - US 🇺🇸-Hysteria2 | 0-0
       - Unknown 🇺🇳-vless | 1-0
