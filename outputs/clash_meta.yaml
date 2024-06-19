@@ -11,9 +11,9 @@ profile:
   tracing: true
 global-client-fingerprint: chrome
 proxies:
-  - name: Unknown 🇺🇳-vmess | 0-1
+  - name: 🏳 Unknown-vmess | 0-1
     type: vmess
-    server: fbi.gov
+    server: 104.16.148.244
     port: 8080
     uuid: ffaba3ee-4070-4590-9959-d863f9a4c6de
     alterId: 0
@@ -161,9 +161,9 @@ proxies:
       path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
       headers:
         Host: ip002.freegradely.xyz
-  - name: Unknown 🇺🇳-vmess | 2-3
+  - name: 🏳 Unknown-vmess | 2-3
     type: vmess
-    server: fbi.gov
+    server: 104.16.148.244
     port: 2086
     uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
     alterId: 0
@@ -251,9 +251,9 @@ proxies:
       path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
       headers:
         host: luther-soon-uploaded-anxiety.trycloudflare.com
-  - name: Unknown 🇺🇳-vmess | 4-1
+  - name: 🏳 Unknown-vmess | 4-1
     type: vmess
-    server: fbi.gov
+    server: 104.16.148.244
     port: 2086
     uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
     alterId: 0
@@ -574,7 +574,7 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Unknown 🇺🇳-vmess | 0-1
+      - 🏳 Unknown-vmess | 0-1
       - US 🇺🇸-vmess | 0-2
       - CA 🇨🇦-vmess | 0-3
       - 🏳 Unknown-vmess | 0-4
@@ -584,13 +584,13 @@ proxy-groups:
       - 🏳 Unknown-vmess | 1-4
       - 🏳 Unknown-vmess | 2-1
       - CA 🇨🇦-vmess | 2-2
-      - Unknown 🇺🇳-vmess | 2-3
+      - 🏳 Unknown-vmess | 2-3
       - 🏳 Unknown-vmess | 2-4
       - 🏳 Unknown-vmess | 3-1
       - US 🇺🇸-vmess | 3-2
       - CA 🇨🇦-vmess | 3-3
       - 🏳 Unknown-vmess | 3-4
-      - Unknown 🇺🇳-vmess | 4-1
+      - 🏳 Unknown-vmess | 4-1
       - CA 🇨🇦-vmess | 4-2
       - 🏳 Unknown-vmess | 4-3
       - 🏳 Unknown-vmess | 4-4
@@ -616,7 +616,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - Unknown 🇺🇳-vmess | 0-1
+      - 🏳 Unknown-vmess | 0-1
       - US 🇺🇸-vmess | 0-2
       - CA 🇨🇦-vmess | 0-3
       - 🏳 Unknown-vmess | 0-4
@@ -626,13 +626,13 @@ proxy-groups:
       - 🏳 Unknown-vmess | 1-4
       - 🏳 Unknown-vmess | 2-1
       - CA 🇨🇦-vmess | 2-2
-      - Unknown 🇺🇳-vmess | 2-3
+      - 🏳 Unknown-vmess | 2-3
       - 🏳 Unknown-vmess | 2-4
       - 🏳 Unknown-vmess | 3-1
       - US 🇺🇸-vmess | 3-2
       - CA 🇨🇦-vmess | 3-3
       - 🏳 Unknown-vmess | 3-4
-      - Unknown 🇺🇳-vmess | 4-1
+      - 🏳 Unknown-vmess | 4-1
       - CA 🇨🇦-vmess | 4-2
       - 🏳 Unknown-vmess | 4-3
       - 🏳 Unknown-vmess | 4-4
