@@ -28,9 +28,10 @@ async function processUrls(urlsFile, processFunction) {
     for (let index = 0; index < urls.length; index++) {
       const url = urls[index];
       try {
-        const response = await axios.get(
-          url.replace("raw.githubusercontent.com", "p.ivwv.site/raw.githubusercontent.com")
-        );
+        // const response = await axios.get(
+        //   url.replace("raw.githubusercontent.com", "p.ivwv.site/raw.githubusercontent.com")
+        // );
+        const response = await axios.get(url);
         console.log(url);
         const data = response.data;
         await processFunction(data, index);
