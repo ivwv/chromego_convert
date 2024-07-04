@@ -336,11 +336,11 @@ async function processXray(data, index) {
 async function getPhysicalLocation(address) {
   try {
     const geo = geoip.lookup(address);
-    const country = geo ? geo.country : "Unknown";
+    const country = geo ? geo.country : "CloudFlare";
     return `${country} ${getFlagEmoji(country)}`;
   } catch (e) {
     console.error(`区域代码获取失败: ${e}`);
-    return "🏳 Unknown";
+    return "🏳 CloudFlare";
   }
 }
 
