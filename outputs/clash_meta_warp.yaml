@@ -1395,18 +1395,471 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: ip2.1457230.xyz
-  - name: FR 🇫🇷-tuic | 1-1
-    server: 51.159.34.216
-    port: 33445
-    type: tuic
-    uuid: 1607c99b-7df5-4b58-a315-a440f9afde40
-    password: dongtaiwang.com
-    alpn:
-      - h3
-    disable-sni: true
-    reduce-rtt: true
-    udp-relay-mode: native
-    congestion-controller: bbr
+  - name: 🏳 CloudFlare-vmess | 1-1
+    type: vmess
+    server: 104.19.38.18
+    port: 2052
+    uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+    network: ws
+    servername: cdn3.freegradely.xyz
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: cdn3.freegradely.xyz
+  - name: 🏳 CloudFlare-vmess | 1-2
+    type: vmess
+    server: 104.26.0.66
+    port: 2052
+    uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+    network: ws
+    servername: cdn3.freegradely.xyz
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: cdn3.freegradely.xyz
+  - name: CA 🇨🇦-vmess | 1-3
+    type: vmess
+    server: 23.227.38.13
+    port: 2052
+    uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+    network: ws
+    servername: cdn3.freegradely.xyz
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: cdn3.freegradely.xyz
+  - name: 🏳 CloudFlare-vmess | 1-4
+    type: vmess
+    server: 104.19.38.22
+    port: 2052
+    uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+    network: ws
+    servername: cdn3.freegradely.xyz
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: cdn3.freegradely.xyz
+  - name: US 🇺🇸-vmess | 1-5
+    type: vmess
+    server: 172.64.175.98
+    port: 2052
+    uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+    network: ws
+    servername: cdn3.freegradely.xyz
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: cdn3.freegradely.xyz
+  - name: US 🇺🇸-vmess | 1-6
+    type: vmess
+    server: 172.64.99.32
+    port: 2052
+    uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+    network: ws
+    servername: cdn3.freegradely.xyz
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: cdn3.freegradely.xyz
+  - name: 🏳 CloudFlare-vmess | 1-7
+    type: vmess
+    server: 104.19.21.81
+    port: 2052
+    uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+    network: ws
+    servername: cdn3.freegradely.xyz
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: cdn3.freegradely.xyz
+  - name: US 🇺🇸-vmess | 1-8
+    type: vmess
+    server: 172.64.175.223
+    port: 2052
+    uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+    network: ws
+    servername: cdn3.freegradely.xyz
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: cdn3.freegradely.xyz
+  - name: US 🇺🇸-vmess | 1-9
+    type: vmess
+    server: 172.64.198.229
+    port: 2052
+    uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+    network: ws
+    servername: cdn3.freegradely.xyz
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: cdn3.freegradely.xyz
+  - name: US 🇺🇸-vmess | 1-10
+    type: vmess
+    server: 172.64.194.96
+    port: 2052
+    uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+    network: ws
+    servername: cdn3.freegradely.xyz
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: cdn3.freegradely.xyz
+  - name: 🏳 CloudFlare-vmess | 1-11
+    type: vmess
+    server: 104.19.21.73
+    port: 2052
+    uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+    network: ws
+    servername: cdn3.freegradely.xyz
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: cdn3.freegradely.xyz
+  - name: 🏳 CloudFlare-vmess | 1-12
+    type: vmess
+    server: 104.19.123.31
+    port: 2052
+    uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+    network: ws
+    servername: cdn3.freegradely.xyz
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: cdn3.freegradely.xyz
+  - name: 🏳 CloudFlare-vmess | 1-13
+    type: vmess
+    server: 104.18.57.121
+    port: 2052
+    uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+    network: ws
+    servername: cdn3.freegradely.xyz
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: cdn3.freegradely.xyz
+  - name: 🏳 CloudFlare-vmess | 1-14
+    type: vmess
+    server: 104.19.21.240
+    port: 2052
+    uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+    network: ws
+    servername: cdn3.freegradely.xyz
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: cdn3.freegradely.xyz
+  - name: 🏳 CloudFlare-vmess | 1-15
+    type: vmess
+    server: 104.19.21.220
+    port: 2052
+    uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+    network: ws
+    servername: cdn3.freegradely.xyz
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: cdn3.freegradely.xyz
+  - name: 🏳 CloudFlare-vmess | 1-16
+    type: vmess
+    server: 104.19.46.123
+    port: 2052
+    uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+    network: ws
+    servername: cdn3.freegradely.xyz
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: cdn3.freegradely.xyz
+  - name: 🏳 CloudFlare-vmess | 1-17
+    type: vmess
+    server: 104.19.32.226
+    port: 2052
+    uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+    network: ws
+    servername: cdn3.freegradely.xyz
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: cdn3.freegradely.xyz
+  - name: 🏳 CloudFlare-vmess | 1-18
+    type: vmess
+    server: 104.19.47.75
+    port: 2052
+    uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+    network: ws
+    servername: cdn3.freegradely.xyz
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: cdn3.freegradely.xyz
+  - name: 🏳 CloudFlare-vmess | 1-19
+    type: vmess
+    server: 104.19.58.185
+    port: 2052
+    uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+    network: ws
+    servername: cdn3.freegradely.xyz
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: cdn3.freegradely.xyz
+  - name: 🏳 CloudFlare-vmess | 1-20
+    type: vmess
+    server: 104.19.55.79
+    port: 2052
+    uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+    network: ws
+    servername: cdn3.freegradely.xyz
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: cdn3.freegradely.xyz
+  - name: 🏳 CloudFlare-vmess | 1-21
+    type: vmess
+    server: 104.19.42.79
+    port: 2052
+    uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+    network: ws
+    servername: cdn3.freegradely.xyz
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: cdn3.freegradely.xyz
+  - name: 🏳 CloudFlare-vmess | 1-22
+    type: vmess
+    server: 104.17.106.171
+    port: 2052
+    uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+    network: ws
+    servername: cdn3.freegradely.xyz
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: cdn3.freegradely.xyz
+  - name: 🏳 CloudFlare-vmess | 1-23
+    type: vmess
+    server: 104.19.57.24
+    port: 2052
+    uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+    network: ws
+    servername: cdn3.freegradely.xyz
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: cdn3.freegradely.xyz
+  - name: 🏳 CloudFlare-vmess | 1-24
+    type: vmess
+    server: 104.19.59.99
+    port: 2052
+    uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+    network: ws
+    servername: cdn3.freegradely.xyz
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: cdn3.freegradely.xyz
+  - name: 🏳 CloudFlare-vmess | 1-25
+    type: vmess
+    server: 104.20.17.196
+    port: 2052
+    uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+    network: ws
+    servername: cdn3.freegradely.xyz
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: cdn3.freegradely.xyz
+  - name: 🏳 CloudFlare-vmess | 1-26
+    type: vmess
+    server: 104.20.25.166
+    port: 2052
+    uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+    network: ws
+    servername: cdn3.freegradely.xyz
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: cdn3.freegradely.xyz
+  - name: 🏳 CloudFlare-vmess | 1-27
+    type: vmess
+    server: 104.20.25.176
+    port: 2052
+    uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+    network: ws
+    servername: cdn3.freegradely.xyz
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: cdn3.freegradely.xyz
+  - name: 🏳 CloudFlare-vmess | 1-28
+    type: vmess
+    server: 104.26.7.152
+    port: 2052
+    uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+    network: ws
+    servername: cdn3.freegradely.xyz
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: cdn3.freegradely.xyz
+  - name: 🏳 CloudFlare-vmess | 1-29
+    type: vmess
+    server: 104.20.25.166
+    port: 2052
+    uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+    network: ws
+    servername: cdn3.freegradely.xyz
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: cdn3.freegradely.xyz
+  - name: 🏳 CloudFlare-vmess | 1-30
+    type: vmess
+    server: 104.20.17.196
+    port: 2052
+    uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+    network: ws
+    servername: cdn3.freegradely.xyz
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: cdn3.freegradely.xyz
+  - name: US 🇺🇸-vmess | 1-31
+    type: vmess
+    server: 172.67.74.122
+    port: 2052
+    uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: false
+    network: ws
+    servername: cdn3.freegradely.xyz
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: cdn3.freegradely.xyz
   - name: 🏳 CloudFlare-vmess | 2-1
     type: vmess
     server: 104.19.51.232
@@ -1921,7 +2374,37 @@ proxy-groups:
       - US 🇺🇸-vmess | 0-89
       - US 🇺🇸-vmess | 0-90
       - US 🇺🇸-vmess | 0-91
-      - FR 🇫🇷-tuic | 1-1
+      - 🏳 CloudFlare-vmess | 1-1
+      - 🏳 CloudFlare-vmess | 1-2
+      - CA 🇨🇦-vmess | 1-3
+      - 🏳 CloudFlare-vmess | 1-4
+      - US 🇺🇸-vmess | 1-5
+      - US 🇺🇸-vmess | 1-6
+      - 🏳 CloudFlare-vmess | 1-7
+      - US 🇺🇸-vmess | 1-8
+      - US 🇺🇸-vmess | 1-9
+      - US 🇺🇸-vmess | 1-10
+      - 🏳 CloudFlare-vmess | 1-11
+      - 🏳 CloudFlare-vmess | 1-12
+      - 🏳 CloudFlare-vmess | 1-13
+      - 🏳 CloudFlare-vmess | 1-14
+      - 🏳 CloudFlare-vmess | 1-15
+      - 🏳 CloudFlare-vmess | 1-16
+      - 🏳 CloudFlare-vmess | 1-17
+      - 🏳 CloudFlare-vmess | 1-18
+      - 🏳 CloudFlare-vmess | 1-19
+      - 🏳 CloudFlare-vmess | 1-20
+      - 🏳 CloudFlare-vmess | 1-21
+      - 🏳 CloudFlare-vmess | 1-22
+      - 🏳 CloudFlare-vmess | 1-23
+      - 🏳 CloudFlare-vmess | 1-24
+      - 🏳 CloudFlare-vmess | 1-25
+      - 🏳 CloudFlare-vmess | 1-26
+      - 🏳 CloudFlare-vmess | 1-27
+      - 🏳 CloudFlare-vmess | 1-28
+      - 🏳 CloudFlare-vmess | 1-29
+      - 🏳 CloudFlare-vmess | 1-30
+      - US 🇺🇸-vmess | 1-31
       - 🏳 CloudFlare-vmess | 2-1
       - CA 🇨🇦-vmess | 2-2
       - 🏳 CloudFlare-vmess | 2-3
@@ -2048,7 +2531,37 @@ proxy-groups:
       - US 🇺🇸-vmess | 0-89
       - US 🇺🇸-vmess | 0-90
       - US 🇺🇸-vmess | 0-91
-      - FR 🇫🇷-tuic | 1-1
+      - 🏳 CloudFlare-vmess | 1-1
+      - 🏳 CloudFlare-vmess | 1-2
+      - CA 🇨🇦-vmess | 1-3
+      - 🏳 CloudFlare-vmess | 1-4
+      - US 🇺🇸-vmess | 1-5
+      - US 🇺🇸-vmess | 1-6
+      - 🏳 CloudFlare-vmess | 1-7
+      - US 🇺🇸-vmess | 1-8
+      - US 🇺🇸-vmess | 1-9
+      - US 🇺🇸-vmess | 1-10
+      - 🏳 CloudFlare-vmess | 1-11
+      - 🏳 CloudFlare-vmess | 1-12
+      - 🏳 CloudFlare-vmess | 1-13
+      - 🏳 CloudFlare-vmess | 1-14
+      - 🏳 CloudFlare-vmess | 1-15
+      - 🏳 CloudFlare-vmess | 1-16
+      - 🏳 CloudFlare-vmess | 1-17
+      - 🏳 CloudFlare-vmess | 1-18
+      - 🏳 CloudFlare-vmess | 1-19
+      - 🏳 CloudFlare-vmess | 1-20
+      - 🏳 CloudFlare-vmess | 1-21
+      - 🏳 CloudFlare-vmess | 1-22
+      - 🏳 CloudFlare-vmess | 1-23
+      - 🏳 CloudFlare-vmess | 1-24
+      - 🏳 CloudFlare-vmess | 1-25
+      - 🏳 CloudFlare-vmess | 1-26
+      - 🏳 CloudFlare-vmess | 1-27
+      - 🏳 CloudFlare-vmess | 1-28
+      - 🏳 CloudFlare-vmess | 1-29
+      - 🏳 CloudFlare-vmess | 1-30
+      - US 🇺🇸-vmess | 1-31
       - 🏳 CloudFlare-vmess | 2-1
       - CA 🇨🇦-vmess | 2-2
       - 🏳 CloudFlare-vmess | 2-3
@@ -2175,7 +2688,37 @@ proxy-groups:
       - US 🇺🇸-vmess | 0-89
       - US 🇺🇸-vmess | 0-90
       - US 🇺🇸-vmess | 0-91
-      - FR 🇫🇷-tuic | 1-1
+      - 🏳 CloudFlare-vmess | 1-1
+      - 🏳 CloudFlare-vmess | 1-2
+      - CA 🇨🇦-vmess | 1-3
+      - 🏳 CloudFlare-vmess | 1-4
+      - US 🇺🇸-vmess | 1-5
+      - US 🇺🇸-vmess | 1-6
+      - 🏳 CloudFlare-vmess | 1-7
+      - US 🇺🇸-vmess | 1-8
+      - US 🇺🇸-vmess | 1-9
+      - US 🇺🇸-vmess | 1-10
+      - 🏳 CloudFlare-vmess | 1-11
+      - 🏳 CloudFlare-vmess | 1-12
+      - 🏳 CloudFlare-vmess | 1-13
+      - 🏳 CloudFlare-vmess | 1-14
+      - 🏳 CloudFlare-vmess | 1-15
+      - 🏳 CloudFlare-vmess | 1-16
+      - 🏳 CloudFlare-vmess | 1-17
+      - 🏳 CloudFlare-vmess | 1-18
+      - 🏳 CloudFlare-vmess | 1-19
+      - 🏳 CloudFlare-vmess | 1-20
+      - 🏳 CloudFlare-vmess | 1-21
+      - 🏳 CloudFlare-vmess | 1-22
+      - 🏳 CloudFlare-vmess | 1-23
+      - 🏳 CloudFlare-vmess | 1-24
+      - 🏳 CloudFlare-vmess | 1-25
+      - 🏳 CloudFlare-vmess | 1-26
+      - 🏳 CloudFlare-vmess | 1-27
+      - 🏳 CloudFlare-vmess | 1-28
+      - 🏳 CloudFlare-vmess | 1-29
+      - 🏳 CloudFlare-vmess | 1-30
+      - US 🇺🇸-vmess | 1-31
       - 🏳 CloudFlare-vmess | 2-1
       - CA 🇨🇦-vmess | 2-2
       - 🏳 CloudFlare-vmess | 2-3
