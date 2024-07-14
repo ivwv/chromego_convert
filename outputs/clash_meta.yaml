@@ -2361,9 +2361,9 @@ proxies:
     h2-opts:
       path: /
       host: []
-  - name: CloudFlare 🇨🇱-vmess | 1-0
+  - name: 🏳 CloudFlare-vmess | 1-0
     type: vmess
-    server: yh4.dtku41.xyz
+    server: 162.159.140.19
     port: 2082
     uuid: 86e926b9-d67a-4c8f-a35e-024631838a45
     alterId: 0
@@ -2381,9 +2381,9 @@ proxies:
     h2-opts:
       path: /
       host: []
-  - name: CloudFlare 🇨🇱-vmess | 2-0
+  - name: 🏳 CloudFlare-vmess | 2-0
     type: vmess
-    server: yh14.dtku41.xyz
+    server: 162.159.141.11
     port: 2082
     uuid: 86e926b9-d67a-4c8f-a35e-024631838a45
     alterId: 0
@@ -2401,9 +2401,9 @@ proxies:
     h2-opts:
       path: /
       host: []
-  - name: CloudFlare 🇨🇱-vmess | 3-0
+  - name: 🏳 CloudFlare-vmess | 3-0
     type: vmess
-    server: yh7.dtku41.xyz
+    server: 162.159.143.73
     port: 2082
     uuid: 86e926b9-d67a-4c8f-a35e-024631838a45
     alterId: 0
@@ -2585,9 +2585,9 @@ proxy-groups:
       - US 🇺🇸-Hysteria | 3-0
       - FR 🇫🇷-Hysteria2 | 0-0
       - 🏳 CloudFlare-vmess | 0-0
-      - CloudFlare 🇨🇱-vmess | 1-0
-      - CloudFlare 🇨🇱-vmess | 2-0
-      - CloudFlare 🇨🇱-vmess | 3-0
+      - 🏳 CloudFlare-vmess | 1-0
+      - 🏳 CloudFlare-vmess | 2-0
+      - 🏳 CloudFlare-vmess | 3-0
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -2752,9 +2752,9 @@ proxy-groups:
       - US 🇺🇸-Hysteria | 3-0
       - FR 🇫🇷-Hysteria2 | 0-0
       - 🏳 CloudFlare-vmess | 0-0
-      - CloudFlare 🇨🇱-vmess | 1-0
-      - CloudFlare 🇨🇱-vmess | 2-0
-      - CloudFlare 🇨🇱-vmess | 3-0
+      - 🏳 CloudFlare-vmess | 1-0
+      - 🏳 CloudFlare-vmess | 2-0
+      - 🏳 CloudFlare-vmess | 3-0
   - name: 📺 巴哈姆特
     type: select
     proxies:
