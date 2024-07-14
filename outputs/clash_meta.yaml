@@ -2253,17 +2253,18 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: ip5-10.freegradely.xyz
-  - name: CloudFlare 🇨🇱-ss | 8-1
-    type: ss
-    server: 23.170.40.77
-    port: 443
-    cipher: 2022-blake3-chacha20-poly1305
-    password: CmUP/cj9LY2W4bsBUV7mG8ujmMcCOzt+b4un9xnLuro=
-    plugin: shadow-tls
-    plugin-opts:
-      host: nijigen-works.jp
-      password: K+NtA/8R8MTQ9vyZAd0kzUYJkwQmQBkUIQmwa2Po8cM=
-      version: 3
+  - name: CloudFlare 🇨🇱-tuic | 8-1
+    server: www2.dtku44.xyz
+    port: 11224
+    type: tuic
+    uuid: 285524a5-18ae-4bf4-8e89-473dfdc3a212
+    password: dongtaiwang.com
+    alpn:
+      - h3
+    disable-sni: true
+    reduce-rtt: true
+    udp-relay-mode: native
+    congestion-controller: bbr
   - name: CloudFlare 🇨🇱-hysteria | 9-1
     type: hysteria
     server: 23.170.40.77
@@ -2340,6 +2341,26 @@ proxies:
     password: dongtaiwang.com
     sni: bing.com
     skip-cert-verify: true
+  - name: 🏳 CloudFlare-vmess | 0-0
+    type: vmess
+    server: 104.19.32.188
+    port: 2082
+    uuid: 86e926b9-d67a-4c8f-a35e-024631838a45
+    alterId: 0
+    cipher: auto
+    tls: false
+    servername: ''
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: ip2-2.freessr2.xyz
+    grpc-opts:
+      serviceName: /
+    h2-opts:
+      path: /
+      host: []
   - name: CloudFlare 🇨🇱-vmess | 1-0
     type: vmess
     server: yh4.dtku41.xyz
@@ -2556,13 +2577,14 @@ proxy-groups:
       - CA 🇨🇦-vmess | 7-2
       - 🏳 CloudFlare-vmess | 7-3
       - 🏳 CloudFlare-vmess | 7-4
-      - CloudFlare 🇨🇱-ss | 8-1
+      - CloudFlare 🇨🇱-tuic | 8-1
       - CloudFlare 🇨🇱-hysteria | 9-1
       - US 🇺🇸-Hysteria | 0-0
       - US 🇺🇸-Hysteria | 1-0
       - US 🇺🇸-Hysteria | 2-0
       - US 🇺🇸-Hysteria | 3-0
       - FR 🇫🇷-Hysteria2 | 0-0
+      - 🏳 CloudFlare-vmess | 0-0
       - CloudFlare 🇨🇱-vmess | 1-0
       - CloudFlare 🇨🇱-vmess | 2-0
       - CloudFlare 🇨🇱-vmess | 3-0
@@ -2722,13 +2744,14 @@ proxy-groups:
       - CA 🇨🇦-vmess | 7-2
       - 🏳 CloudFlare-vmess | 7-3
       - 🏳 CloudFlare-vmess | 7-4
-      - CloudFlare 🇨🇱-ss | 8-1
+      - CloudFlare 🇨🇱-tuic | 8-1
       - CloudFlare 🇨🇱-hysteria | 9-1
       - US 🇺🇸-Hysteria | 0-0
       - US 🇺🇸-Hysteria | 1-0
       - US 🇺🇸-Hysteria | 2-0
       - US 🇺🇸-Hysteria | 3-0
       - FR 🇫🇷-Hysteria2 | 0-0
+      - 🏳 CloudFlare-vmess | 0-0
       - CloudFlare 🇨🇱-vmess | 1-0
       - CloudFlare 🇨🇱-vmess | 2-0
       - CloudFlare 🇨🇱-vmess | 3-0
