@@ -628,7 +628,7 @@ proxies:
         Host: ip1.1789034.xyz
   - name: 🏳 CloudFlare-vmess | 0-42
     type: vmess
-    server: 104.19.46.17
+    server: 104.26.5.56
     port: 2086
     uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
     alterId: 0
@@ -643,7 +643,7 @@ proxies:
         Host: ip1.1789034.xyz
   - name: 🏳 CloudFlare-vmess | 0-43
     type: vmess
-    server: 104.19.46.22
+    server: 104.26.5.66
     port: 2086
     uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
     alterId: 0
@@ -658,7 +658,7 @@ proxies:
         Host: ip1.1789034.xyz
   - name: 🏳 CloudFlare-vmess | 0-44
     type: vmess
-    server: 104.19.46.27
+    server: 104.26.5.67
     port: 2086
     uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
     alterId: 0
@@ -673,7 +673,7 @@ proxies:
         Host: ip1.1789034.xyz
   - name: 🏳 CloudFlare-vmess | 0-45
     type: vmess
-    server: 104.19.46.33
+    server: 104.26.5.88
     port: 2086
     uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
     alterId: 0
@@ -688,7 +688,7 @@ proxies:
         Host: ip1.1789034.xyz
   - name: 🏳 CloudFlare-vmess | 0-46
     type: vmess
-    server: 104.19.46.36
+    server: 104.26.5.90
     port: 2086
     uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
     alterId: 0
@@ -703,7 +703,7 @@ proxies:
         Host: ip1.1789034.xyz
   - name: 🏳 CloudFlare-vmess | 0-47
     type: vmess
-    server: 104.19.46.39
+    server: 104.26.5.103
     port: 2086
     uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
     alterId: 0
@@ -718,7 +718,7 @@ proxies:
         Host: ip1.1789034.xyz
   - name: 🏳 CloudFlare-vmess | 0-48
     type: vmess
-    server: 104.19.46.42
+    server: 104.26.5.112
     port: 2086
     uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
     alterId: 0
@@ -733,7 +733,7 @@ proxies:
         Host: ip1.1789034.xyz
   - name: 🏳 CloudFlare-vmess | 0-49
     type: vmess
-    server: 104.19.46.56
+    server: 104.26.5.113
     port: 2086
     uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
     alterId: 0
@@ -748,7 +748,7 @@ proxies:
         Host: ip1.1789034.xyz
   - name: 🏳 CloudFlare-vmess | 0-50
     type: vmess
-    server: 104.19.46.59
+    server: 104.26.5.123
     port: 2086
     uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
     alterId: 0
@@ -763,7 +763,7 @@ proxies:
         Host: ip1.1789034.xyz
   - name: 🏳 CloudFlare-vmess | 0-51
     type: vmess
-    server: 104.19.46.63
+    server: 104.26.5.145
     port: 2086
     uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
     alterId: 0
@@ -778,7 +778,7 @@ proxies:
         Host: ip1.1789034.xyz
   - name: 🏳 CloudFlare-vmess | 0-52
     type: vmess
-    server: 104.19.47.22
+    server: 162.159.140.19
     port: 2086
     uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
     alterId: 0
@@ -793,7 +793,7 @@ proxies:
         Host: ip1.1789034.xyz
   - name: 🏳 CloudFlare-vmess | 0-53
     type: vmess
-    server: 104.19.47.27
+    server: 162.159.140.33
     port: 2086
     uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
     alterId: 0
@@ -808,7 +808,7 @@ proxies:
         Host: ip1.1789034.xyz
   - name: 🏳 CloudFlare-vmess | 0-54
     type: vmess
-    server: 104.19.47.32
+    server: 162.159.140.39
     port: 2086
     uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
     alterId: 0
@@ -823,7 +823,7 @@ proxies:
         Host: ip1.1789034.xyz
   - name: 🏳 CloudFlare-vmess | 0-55
     type: vmess
-    server: 104.19.47.36
+    server: 162.159.140.45
     port: 2086
     uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
     alterId: 0
@@ -838,7 +838,7 @@ proxies:
         Host: ip1.1789034.xyz
   - name: 🏳 CloudFlare-vmess | 0-56
     type: vmess
-    server: 104.19.47.45
+    server: 162.159.140.56
     port: 2086
     uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
     alterId: 0
@@ -853,7 +853,7 @@ proxies:
         Host: ip1.1789034.xyz
   - name: 🏳 CloudFlare-vmess | 0-57
     type: vmess
-    server: 104.19.47.77
+    server: 162.159.140.66
     port: 2086
     uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
     alterId: 0
@@ -868,7 +868,7 @@ proxies:
         Host: ip1.1789034.xyz
   - name: 🏳 CloudFlare-vmess | 0-58
     type: vmess
-    server: 104.19.47.79
+    server: 162.159.140.77
     port: 2086
     uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
     alterId: 0
@@ -883,7 +883,7 @@ proxies:
         Host: ip1.1789034.xyz
   - name: 🏳 CloudFlare-vmess | 0-59
     type: vmess
-    server: 104.19.47.88
+    server: 162.159.140.89
     port: 2086
     uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
     alterId: 0
@@ -898,7 +898,7 @@ proxies:
         Host: ip1.1789034.xyz
   - name: 🏳 CloudFlare-vmess | 0-60
     type: vmess
-    server: 104.19.47.80
+    server: 162.159.140.91
     port: 2086
     uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
     alterId: 0
@@ -913,7 +913,7 @@ proxies:
         Host: ip1.1789034.xyz
   - name: 🏳 CloudFlare-vmess | 0-61
     type: vmess
-    server: 104.19.47.122
+    server: 162.159.140.93
     port: 2086
     uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
     alterId: 0
@@ -2429,10 +2429,10 @@ proxies:
     skip-cert-verify: true
     alpn:
       - h3
-  - name: US 🇺🇸-Hysteria2 | 0-0
+  - name: FR 🇫🇷-Hysteria2 | 0-0
     type: hysteria2
-    server: 38.114.103.210
-    port: 26288
+    server: 51.159.34.216
+    port: 7571
     password: dongtaiwang.com
     sni: www.bing.com
     skip-cert-verify: true
@@ -2460,7 +2460,7 @@ proxies:
       short-id: 0b4badde
   - name: 🏳 CloudFlare-vmess | 1-0
     type: vmess
-    server: 162.159.140.19
+    server: 104.26.3.12
     port: 2082
     uuid: 86e926b9-d67a-4c8f-a35e-024631838a45
     alterId: 0
@@ -2686,7 +2686,7 @@ proxy-groups:
       - US 🇺🇸-Hysteria | 1-0
       - US 🇺🇸-Hysteria | 2-0
       - US 🇺🇸-Hysteria | 3-0
-      - US 🇺🇸-Hysteria2 | 0-0
+      - FR 🇫🇷-Hysteria2 | 0-0
       - US 🇺🇸-Hysteria2 | 1-0
       - FR 🇫🇷-vless | 0-0
       - 🏳 CloudFlare-vmess | 1-0
@@ -2860,7 +2860,7 @@ proxy-groups:
       - US 🇺🇸-Hysteria | 1-0
       - US 🇺🇸-Hysteria | 2-0
       - US 🇺🇸-Hysteria | 3-0
-      - US 🇺🇸-Hysteria2 | 0-0
+      - FR 🇫🇷-Hysteria2 | 0-0
       - US 🇺🇸-Hysteria2 | 1-0
       - FR 🇫🇷-vless | 0-0
       - 🏳 CloudFlare-vmess | 1-0
