@@ -160,7 +160,7 @@ hysteria://208.87.243.123:31476/?protocol=udp&insecure=NaN&peer=wechat.com&auth=
 hysteria://208.87.243.123:31476/?protocol=udp&insecure=NaN&peer=wechat.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#US 🇺🇸-Hysteria | 1-0
 hysteria://208.87.243.123:31476/?protocol=udp&insecure=NaN&peer=wechat.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#US 🇺🇸-Hysteria | 2-0
 hysteria://166.1.18.52:10295/?protocol=udp&insecure=NaN&peer=bing.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#US 🇺🇸-Hysteria | 3-0
-hysteria2://dongtaiwang.com@173.234.31.99:56549/?sni=&insecure=NaN#US 🇺🇸-Hysteria2 | 0-0
+hysteria2://dongtaiwang.com@hy3.3124845.xyz:443/?sni=hy3.3124845.xyz&insecure=0#CloudFlare 🇨🇱-Hysteria2 | 0-0
 vless://e9e3cc13-db48-4cc1-8c24-7626439a5339@62.210.101.0:23357?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.yahoo.com&fp=chrome&pbk=U5hsLybYWhJrWAqqsTa052k-VeKt8bDFPxBh3CQk51M&sid=0b4badde&type=tcp&serviceName=/&host=&path=#FR 🇫🇷-vless | 0-0
 vmess://eyJ2IjoiMiIsInBzIjoi8J+PsyBDbG91ZEZsYXJlLXZtZXNzIHwgMS0wIiwiYWRkIjoiMTA0LjI2LjMuMTIiLCJwb3J0IjoyMDgyLCJpZCI6Ijg2ZTkyNmI5LWQ2N2EtNGM4Zi1hMzVlLTAyNDYzMTgzOGE0NSIsImFpZCI6MCwibmV0Ijoid3MiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiJpcDQtMi5mcmVlc3NyMi54eXoiLCJwYXRoIjoiZ2l0aHViLmNvbS9BbHZpbjk5OTkiLCJ0bHMiOiIiLCJzbmkiOiIiLCJhbHBuIjoiIn0=
 vmess://eyJ2IjoiMiIsInBzIjoiVVMg8J+HuvCfh7gtdm1lc3MgfCAyLTAiLCJhZGQiOiIxNzIuNjQuMTcwLjExMSIsInBvcnQiOjIwODIsImlkIjoiODZlOTI2YjktZDY3YS00YzhmLWEzNWUtMDI0NjMxODM4YTQ1IiwiYWlkIjowLCJuZXQiOiJ3cyIsInR5cGUiOiJub25lIiwiaG9zdCI6ImlwMy0yLmZyZWVzc3IyLnh5eiIsInBhdGgiOiJnaXRodWIuY29tL0FsdmluOTk5OSIsInRscyI6IiIsInNuaSI6IiIsImFscG4iOiIifQ==

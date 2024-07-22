@@ -2429,13 +2429,13 @@ proxies:
     skip-cert-verify: true
     alpn:
       - h3
-  - name: US 🇺🇸-Hysteria2 | 0-0
+  - name: CloudFlare 🇨🇱-Hysteria2 | 0-0
     type: hysteria2
-    server: 173.234.31.99
-    port: 56549
+    server: hy3.3124845.xyz
+    port: 443
     password: dongtaiwang.com
-    sni: ''
-    skip-cert-verify: true
+    sni: hy3.3124845.xyz
+    skip-cert-verify: false
   - name: FR 🇫🇷-vless | 0-0
     type: vless
     server: 62.210.101.0
@@ -2679,7 +2679,7 @@ proxy-groups:
       - US 🇺🇸-Hysteria | 1-0
       - US 🇺🇸-Hysteria | 2-0
       - US 🇺🇸-Hysteria | 3-0
-      - US 🇺🇸-Hysteria2 | 0-0
+      - CloudFlare 🇨🇱-Hysteria2 | 0-0
       - FR 🇫🇷-vless | 0-0
       - 🏳 CloudFlare-vmess | 1-0
       - US 🇺🇸-vmess | 2-0
@@ -2852,7 +2852,7 @@ proxy-groups:
       - US 🇺🇸-Hysteria | 1-0
       - US 🇺🇸-Hysteria | 2-0
       - US 🇺🇸-Hysteria | 3-0
-      - US 🇺🇸-Hysteria2 | 0-0
+      - CloudFlare 🇨🇱-Hysteria2 | 0-0
       - FR 🇫🇷-vless | 0-0
       - 🏳 CloudFlare-vmess | 1-0
       - US 🇺🇸-vmess | 2-0
