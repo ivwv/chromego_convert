@@ -2436,6 +2436,13 @@ proxies:
     password: dongtaiwang.com
     sni: hy3.3124845.xyz
     skip-cert-verify: false
+  - name: US 🇺🇸-Hysteria2 | 1-0
+    type: hysteria2
+    server: 166.1.18.178
+    port: 23456
+    password: dongtaiwang.com
+    sni: bing.com
+    skip-cert-verify: true
   - name: FR 🇫🇷-vless | 0-0
     type: vless
     server: 62.210.101.0
@@ -2680,6 +2687,7 @@ proxy-groups:
       - US 🇺🇸-Hysteria | 2-0
       - US 🇺🇸-Hysteria | 3-0
       - CloudFlare 🇨🇱-Hysteria2 | 0-0
+      - US 🇺🇸-Hysteria2 | 1-0
       - FR 🇫🇷-vless | 0-0
       - 🏳 CloudFlare-vmess | 1-0
       - US 🇺🇸-vmess | 2-0
@@ -2853,6 +2861,7 @@ proxy-groups:
       - US 🇺🇸-Hysteria | 2-0
       - US 🇺🇸-Hysteria | 3-0
       - CloudFlare 🇨🇱-Hysteria2 | 0-0
+      - US 🇺🇸-Hysteria2 | 1-0
       - FR 🇫🇷-vless | 0-0
       - 🏳 CloudFlare-vmess | 1-0
       - US 🇺🇸-vmess | 2-0
