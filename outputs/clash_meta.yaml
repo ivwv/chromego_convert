@@ -2061,11 +2061,11 @@ proxies:
     udp: true
     tls: false
     network: ws
-    servername: ip006.dtku47.xyz
+    servername: ip006.3196772.xyz
     ws-opts:
       path: github.com/Alvin9999
       headers:
-        Host: ip006.dtku47.xyz
+        Host: ip006.3196772.xyz
   - name: CA 🇨🇦-vmess | 3-2
     type: vmess
     server: 23.227.38.6
@@ -2076,11 +2076,11 @@ proxies:
     udp: true
     tls: false
     network: ws
-    servername: ip006.dtku47.xyz
+    servername: ip006.3196772.xyz
     ws-opts:
       path: github.com/Alvin9999
       headers:
-        Host: ip006.dtku47.xyz
+        Host: ip006.3196772.xyz
   - name: 🏳 CloudFlare-vmess | 3-3
     type: vmess
     server: 104.19.51.232
@@ -2091,11 +2091,11 @@ proxies:
     udp: true
     tls: false
     network: ws
-    servername: ip006.dtku47.xyz
+    servername: ip006.3196772.xyz
     ws-opts:
       path: github.com/Alvin9999
       headers:
-        Host: ip006.dtku47.xyz
+        Host: ip006.3196772.xyz
   - name: 🏳 CloudFlare-vmess | 3-4
     type: vmess
     server: 104.19.38.62
@@ -2106,11 +2106,11 @@ proxies:
     udp: true
     tls: false
     network: ws
-    servername: ip006.dtku47.xyz
+    servername: ip006.3196772.xyz
     ws-opts:
       path: github.com/Alvin9999
       headers:
-        Host: ip006.dtku47.xyz
+        Host: ip006.3196772.xyz
   - name: 🏳 CloudFlare-vmess | 4-1
     type: vmess
     server: 104.19.46.233
@@ -2121,11 +2121,11 @@ proxies:
     udp: true
     tls: false
     network: ws
-    servername: ip005.dtku47.xyz
+    servername: ip005.3196772.xyz
     ws-opts:
       path: github.com/Alvin9999
       headers:
-        Host: ip005.dtku47.xyz
+        Host: ip005.3196772.xyz
   - name: CA 🇨🇦-vmess | 4-2
     type: vmess
     server: 23.227.38.6
@@ -2136,11 +2136,11 @@ proxies:
     udp: true
     tls: false
     network: ws
-    servername: ip005.dtku47.xyz
+    servername: ip005.3196772.xyz
     ws-opts:
       path: github.com/Alvin9999
       headers:
-        Host: ip005.dtku47.xyz
+        Host: ip005.3196772.xyz
   - name: 🏳 CloudFlare-vmess | 4-3
     type: vmess
     server: 104.19.51.232
@@ -2151,11 +2151,11 @@ proxies:
     udp: true
     tls: false
     network: ws
-    servername: ip005.dtku47.xyz
+    servername: ip005.3196772.xyz
     ws-opts:
       path: github.com/Alvin9999
       headers:
-        Host: ip005.dtku47.xyz
+        Host: ip005.3196772.xyz
   - name: 🏳 CloudFlare-vmess | 4-4
     type: vmess
     server: 104.19.38.62
@@ -2166,11 +2166,11 @@ proxies:
     udp: true
     tls: false
     network: ws
-    servername: ip005.dtku47.xyz
+    servername: ip005.3196772.xyz
     ws-opts:
       path: github.com/Alvin9999
       headers:
-        Host: ip005.dtku47.xyz
+        Host: ip005.3196772.xyz
   - name: CloudFlare 🇨🇱-ss | 5-1
     type: ss
     server: 23.170.40.77
