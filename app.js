@@ -533,10 +533,10 @@ async function writeBase64File(outputFile, proxyUrlsFile) {
   const proxyUrls = fs.readFileSync(proxyUrlsFile, "utf-8");
 
   // 对代理 URL 进行编码
-  const encodedProxyUrls = encodeURIComponent(proxyUrls);
+  // const encodedProxyUrls = encodeURIComponent(proxyUrls);
 
   // 将编码后的内容进行 Base64 编码
-  const base64EncodedProxyUrls = Buffer.from(encodedProxyUrls, "binary").toString("base64");
+  const base64EncodedProxyUrls = Buffer.from(proxyUrls).toString("base64");
 
   // 将编码后的内容写入 outputFile
   fs.writeFileSync(outputFile, base64EncodedProxyUrls, "utf-8");
