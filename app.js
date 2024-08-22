@@ -571,8 +571,10 @@ function deduplicateByUUID(arr) {
   // 处理xray urls
   await processUrls("./urls/xray_urls.txt", processXray);
 
-  const uniqueExtractedProxies = await deduplicateByUUID(extractedProxies);
+  // const uniqueExtractedProxies = await deduplicateByUUID(extractedProxies);
 
+  const uniqueExtractedProxies = extractedProxies;
+  
   // 写入clash meta配置
   await writeClashMetaProfile(
     "./templates/clash_meta_warp.yaml",
