@@ -542,6 +542,24 @@ async function writeBase64File(outputFile, proxyUrlsFile) {
   fs.writeFileSync(outputFile, base64EncodedProxyUrls, "utf-8");
 }
 
+function deduplicateByUUID(arr) {
+  return new Promise((resolve, reject) => {
+    try {
+      const uniqueItems = new Map();
+
+      arr.forEach(item => {
+        if (!uniqueItems.has(item.uuid)) {
+          uniqueItems.set(item.uuid, item);
+        }
+      });
+
+      resolve(Array.from(uniqueItems.values()));
+    } catch (error) {
+      reject(error);
+    }
+  });
+}
+
 (async () => {
   // 处理clash meta urls
   await processUrls("./urls/clash_meta_urls.txt", processClashMeta);
@@ -553,18 +571,20 @@ async function writeBase64File(outputFile, proxyUrlsFile) {
   // 处理xray urls
   await processUrls("./urls/xray_urls.txt", processXray);
 
+  const uniqueExtractedProxies = await deduplicateByUUID(extractedProxies);
+
   // 写入clash meta配置
   await writeClashMetaProfile(
     "./templates/clash_meta_warp.yaml",
     "./outputs/clash_meta_warp.yaml",
-    extractedProxies
+    uniqueExtractedProxies
   );
   await writeClashMetaProfile(
     "./templates/clash_meta.yaml",
     "./outputs/clash_meta.yaml",
-    extractedProxies
+    uniqueExtractedProxies
   );
-  await writeProxyUrlsFile("./outputs/proxy-urls.txt", extractedProxies);
+  await writeProxyUrlsFile("./outputs/proxy-urls.txt", uniqueExtractedProxies);
 
   // 写入base64文件
   await writeBase64File("./outputs/base64.txt", "./outputs/proxy-urls.txt");
