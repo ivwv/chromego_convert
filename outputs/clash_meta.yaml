@@ -9112,11 +9112,11 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: ip7.8084726.xyz
-  - name: US 🇺🇸-Hysteria | 0-0
+  - name: RU 🇷🇺-Hysteria | 0-0
     type: hysteria
-    server: 166.1.221.169
-    port: 55555
-    ports: 55555
+    server: 46.17.43.223
+    port: 12311
+    ports: 12311
     auth-str: dongtaiwang.com
     up: 80
     down: 100
@@ -9126,11 +9126,11 @@ proxies:
     skip-cert-verify: true
     alpn:
       - h3
-  - name: US 🇺🇸-Hysteria | 1-0
+  - name: RU 🇷🇺-Hysteria | 1-0
     type: hysteria
-    server: 166.1.221.169
-    port: 55555
-    ports: 55555
+    server: 46.17.43.223
+    port: 12311
+    ports: 12311
     auth-str: dongtaiwang.com
     up: 80
     down: 100
@@ -9140,11 +9140,11 @@ proxies:
     skip-cert-verify: true
     alpn:
       - h3
-  - name: US 🇺🇸-Hysteria | 2-0
+  - name: RU 🇷🇺-Hysteria | 2-0
     type: hysteria
-    server: 166.1.221.169
-    port: 55555
-    ports: 55555
+    server: 46.17.43.223
+    port: 12311
+    ports: 12311
     auth-str: dongtaiwang.com
     up: 80
     down: 100
@@ -9154,11 +9154,11 @@ proxies:
     skip-cert-verify: true
     alpn:
       - h3
-  - name: US 🇺🇸-Hysteria | 3-0
+  - name: RU 🇷🇺-Hysteria | 3-0
     type: hysteria
-    server: 166.1.221.169
-    port: 55555
-    ports: 55555
+    server: 46.17.43.223
+    port: 12311
+    ports: 12311
     auth-str: dongtaiwang.com
     up: 80
     down: 100
@@ -9171,7 +9171,7 @@ proxies:
   - name: US 🇺🇸-Hysteria2 | 0-0
     type: hysteria2
     server: 207.90.239.157
-    port: 11111
+    port: 12344
     password: dongtaiwang.com
     sni: www.bing.com
     skip-cert-verify: true
@@ -9868,10 +9868,10 @@ proxy-groups:
       - CloudFlare 🇨🇱-vmess | 6-99
       - CloudFlare 🇨🇱-vmess | 6-100
       - CloudFlare 🇨🇱-vmess | 6-101
-      - US 🇺🇸-Hysteria | 0-0
-      - US 🇺🇸-Hysteria | 1-0
-      - US 🇺🇸-Hysteria | 2-0
-      - US 🇺🇸-Hysteria | 3-0
+      - RU 🇷🇺-Hysteria | 0-0
+      - RU 🇷🇺-Hysteria | 1-0
+      - RU 🇷🇺-Hysteria | 2-0
+      - RU 🇷🇺-Hysteria | 3-0
       - US 🇺🇸-Hysteria2 | 0-0
       - 🏳 CloudFlare-vmess | 0-0
       - 🏳 CloudFlare-vmess | 1-0
@@ -10490,10 +10490,10 @@ proxy-groups:
       - CloudFlare 🇨🇱-vmess | 6-99
       - CloudFlare 🇨🇱-vmess | 6-100
       - CloudFlare 🇨🇱-vmess | 6-101
-      - US 🇺🇸-Hysteria | 0-0
-      - US 🇺🇸-Hysteria | 1-0
-      - US 🇺🇸-Hysteria | 2-0
-      - US 🇺🇸-Hysteria | 3-0
+      - RU 🇷🇺-Hysteria | 0-0
+      - RU 🇷🇺-Hysteria | 1-0
+      - RU 🇷🇺-Hysteria | 2-0
+      - RU 🇷🇺-Hysteria | 3-0
       - US 🇺🇸-Hysteria2 | 0-0
       - 🏳 CloudFlare-vmess | 0-0
       - 🏳 CloudFlare-vmess | 1-0
