@@ -111,7 +111,7 @@ vless://ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2@46.29.166.206:400?encryption=none&f
 vless://ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2@46.29.166.206:400?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.paypal.com&fp=chrome&pbk=bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI&sid=&type=tcp&serviceName=&host=&path=#RU 🇷🇺-vless | 4-1
 vless://ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2@46.29.166.206:400?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.paypal.com&fp=chrome&pbk=bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI&sid=&type=tcp&serviceName=&host=&path=#RU 🇷🇺-vless | 5-1
 vless://ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2@46.29.166.206:400?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.paypal.com&fp=chrome&pbk=bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI&sid=&type=tcp&serviceName=&host=&path=#RU 🇷🇺-vless | 6-1
-hysteria://62.210.8.63:2345/?protocol=udp&insecure=NaN&peer=bing.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#FR 🇫🇷-Hysteria | 0-0
+hysteria://46.17.43.223:12311/?protocol=udp&insecure=NaN&peer=bing.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#RU 🇷🇺-Hysteria | 0-0
 hysteria://46.17.43.223:12311/?protocol=udp&insecure=NaN&peer=bing.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#RU 🇷🇺-Hysteria | 1-0
 hysteria://46.17.43.223:12311/?protocol=udp&insecure=NaN&peer=bing.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#RU 🇷🇺-Hysteria | 2-0
 hysteria://46.17.43.223:12311/?protocol=udp&insecure=NaN&peer=bing.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#RU 🇷🇺-Hysteria | 3-0

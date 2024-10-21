@@ -1726,11 +1726,11 @@ proxies:
       public-key: bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI
       short-id: ''
     client-fingerprint: chrome
-  - name: FR 🇫🇷-Hysteria | 0-0
+  - name: RU 🇷🇺-Hysteria | 0-0
     type: hysteria
-    server: 62.210.8.63
-    port: 2345
-    ports: 2345
+    server: 46.17.43.223
+    port: 12311
+    ports: 12311
     auth-str: dongtaiwang.com
     up: 80
     down: 100
@@ -1988,7 +1988,7 @@ proxy-groups:
       - RU 🇷🇺-vless | 4-1
       - RU 🇷🇺-vless | 5-1
       - RU 🇷🇺-vless | 6-1
-      - FR 🇫🇷-Hysteria | 0-0
+      - RU 🇷🇺-Hysteria | 0-0
       - RU 🇷🇺-Hysteria | 1-0
       - RU 🇷🇺-Hysteria | 2-0
       - RU 🇷🇺-Hysteria | 3-0
@@ -2116,7 +2116,7 @@ proxy-groups:
       - RU 🇷🇺-vless | 4-1
       - RU 🇷🇺-vless | 5-1
       - RU 🇷🇺-vless | 6-1
-      - FR 🇫🇷-Hysteria | 0-0
+      - RU 🇷🇺-Hysteria | 0-0
       - RU 🇷🇺-Hysteria | 1-0
       - RU 🇷🇺-Hysteria | 2-0
       - RU 🇷🇺-Hysteria | 3-0
