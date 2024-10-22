@@ -1729,8 +1729,8 @@ proxies:
   - name: RU 🇷🇺-Hysteria | 0-0
     type: hysteria
     server: 46.17.43.223
-    port: 12311
-    ports: 12311
+    port: 23142
+    ports: 23142
     auth-str: dongtaiwang.com
     up: 80
     down: 100
@@ -1743,8 +1743,8 @@ proxies:
   - name: RU 🇷🇺-Hysteria | 1-0
     type: hysteria
     server: 46.17.43.223
-    port: 12311
-    ports: 12311
+    port: 23142
+    ports: 23142
     auth-str: dongtaiwang.com
     up: 80
     down: 100
@@ -1757,8 +1757,8 @@ proxies:
   - name: RU 🇷🇺-Hysteria | 2-0
     type: hysteria
     server: 46.17.43.223
-    port: 12311
-    ports: 12311
+    port: 23142
+    ports: 23142
     auth-str: dongtaiwang.com
     up: 80
     down: 100
@@ -1771,8 +1771,8 @@ proxies:
   - name: RU 🇷🇺-Hysteria | 3-0
     type: hysteria
     server: 46.17.43.223
-    port: 12311
-    ports: 12311
+    port: 23142
+    ports: 23142
     auth-str: dongtaiwang.com
     up: 80
     down: 100
@@ -1803,7 +1803,7 @@ proxies:
     ws-opts:
       path: github.com/Alvin9999
       headers:
-        Host: ip18.9447609.xyz
+        Host: ip19.9447609.xyz
     grpc-opts:
       serviceName: /
     h2-opts:
@@ -1823,7 +1823,7 @@ proxies:
     ws-opts:
       path: github.com/Alvin9999
       headers:
-        Host: ip18.9447609.xyz
+        Host: ip19.9447609.xyz
     grpc-opts:
       serviceName: /
     h2-opts:
@@ -1843,7 +1843,7 @@ proxies:
     ws-opts:
       path: github.com/Alvin9999
       headers:
-        Host: ip18.9447609.xyz
+        Host: ip19.9447609.xyz
     grpc-opts:
       serviceName: /
     h2-opts:
@@ -1863,7 +1863,7 @@ proxies:
     ws-opts:
       path: github.com/Alvin9999
       headers:
-        Host: ip18.9447609.xyz
+        Host: ip19.9447609.xyz
     grpc-opts:
       serviceName: /
     h2-opts:
