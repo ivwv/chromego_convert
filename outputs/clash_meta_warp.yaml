@@ -1692,57 +1692,57 @@ proxies:
   - name: RU 🇷🇺-vless | 3-1
     type: vless
     server: 46.29.166.206
-    port: 400
-    uuid: ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2
+    port: 49887
+    uuid: ef6706c2-ac66-4c39-bf16-208effa86922
     network: tcp
     udp: true
     tls: true
     flow: xtls-rprx-vision
     servername: www.paypal.com
     reality-opts:
-      public-key: bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI
+      public-key: bBX2IBet-d-kWJ7sb_49zVaem3iTAw5jIwQL4JGDuEg
       short-id: ''
     client-fingerprint: chrome
   - name: RU 🇷🇺-vless | 4-1
     type: vless
     server: 46.29.166.206
-    port: 400
-    uuid: ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2
+    port: 49887
+    uuid: ef6706c2-ac66-4c39-bf16-208effa86922
     network: tcp
     udp: true
     tls: true
     flow: xtls-rprx-vision
     servername: www.paypal.com
     reality-opts:
-      public-key: bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI
+      public-key: bBX2IBet-d-kWJ7sb_49zVaem3iTAw5jIwQL4JGDuEg
       short-id: ''
     client-fingerprint: chrome
   - name: RU 🇷🇺-vless | 5-1
     type: vless
     server: 46.29.166.206
-    port: 400
-    uuid: ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2
+    port: 49887
+    uuid: ef6706c2-ac66-4c39-bf16-208effa86922
     network: tcp
     udp: true
     tls: true
     flow: xtls-rprx-vision
     servername: www.paypal.com
     reality-opts:
-      public-key: bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI
+      public-key: bBX2IBet-d-kWJ7sb_49zVaem3iTAw5jIwQL4JGDuEg
       short-id: ''
     client-fingerprint: chrome
   - name: RU 🇷🇺-vless | 6-1
     type: vless
     server: 46.29.166.206
-    port: 400
-    uuid: ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2
+    port: 49887
+    uuid: ef6706c2-ac66-4c39-bf16-208effa86922
     network: tcp
     udp: true
     tls: true
     flow: xtls-rprx-vision
     servername: www.paypal.com
     reality-opts:
-      public-key: bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI
+      public-key: bBX2IBet-d-kWJ7sb_49zVaem3iTAw5jIwQL4JGDuEg
       short-id: ''
     client-fingerprint: chrome
   - name: RU 🇷🇺-Hysteria | 0-0
@@ -1822,7 +1822,7 @@ proxies:
     ws-opts:
       path: github.com/Alvin9999
       headers:
-        Host: ip31.9447609.xyz
+        Host: ip32.9447609.xyz
     grpc-opts:
       serviceName: /
     h2-opts:
@@ -1842,7 +1842,7 @@ proxies:
     ws-opts:
       path: github.com/Alvin9999
       headers:
-        Host: ip31.9447609.xyz
+        Host: ip32.9447609.xyz
     grpc-opts:
       serviceName: /
     h2-opts:
@@ -1862,7 +1862,7 @@ proxies:
     ws-opts:
       path: github.com/Alvin9999
       headers:
-        Host: ip31.9447609.xyz
+        Host: ip32.9447609.xyz
     grpc-opts:
       serviceName: /
     h2-opts:
@@ -1882,7 +1882,7 @@ proxies:
     ws-opts:
       path: github.com/Alvin9999
       headers:
-        Host: ip31.9447609.xyz
+        Host: ip32.9447609.xyz
     grpc-opts:
       serviceName: /
     h2-opts:
